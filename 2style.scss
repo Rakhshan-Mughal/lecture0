@@ -1,0 +1,71 @@
+%img-width{
+    width: 100%;
+}
+%font{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+$color: #E9ECEF;
+img{
+    @extend %img-width;
+    padding: 5px;
+}
+
+section .morning{
+    @extend %font;
+}
+.paraback p{
+
+   background-color: $color;
+}
+section .goal{
+    @extend %font;
+}
+.goalnote{
+   
+    background-color: $color;
+}
+.reading table{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.reading table{
+
+    tr{
+        th{
+            text-align: center;
+            border: 1px solid black;
+        }
+    }
+}
+.reading table{
+    tr{
+        td{
+            text-align: center;
+            border: 1px solid black;
+        }
+    }
+}
+footer{
+    background-color: #F2F2F2;
+}
+footer button{
+   
+    float: right;
+}
+footer button a{
+  
+   color: white;
+}
+footer a:link{
+    text-decoration: none;
+}
+footer button a:hover{
+    color: white;
+}
+@media(max-width: 600px){
+    #responce img{
+        display: none;
+    }
+}

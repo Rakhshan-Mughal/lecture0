@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    margin-top: 15%;
+    width: 100%;
+}
+h2{
+    margin-top: 15%;
+    color: white;
+}
+p{
+    padding: 10%;
+    color: white;
+}
+footer{
+    margin-top: 20px;
+}

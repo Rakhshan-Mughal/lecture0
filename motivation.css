@@ -1,0 +1,28 @@
+img{
+    margin-top: 10px;
+    width: 100%;
+}
+.note p{
+    background-color: #E9ECEF;
+}
+.text-center p{
+    margin-top: 10px;
+    background-color: #E9ECEF;
+}
+footer{
+  background-color: #F2F2F2;
+}
+footer button{
+    float: right;
+}
+footer button a {
+    color: white;
+  }
+  
+  footer a:link {
+    text-decoration: none;
+  }
+  
+  footer button a:hover {
+    color: white;
+  }
